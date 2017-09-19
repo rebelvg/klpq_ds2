@@ -15,7 +15,31 @@ class CfgPatches {
 
 class CfgAmmo {
     class Default;
-    class ShellBase;
+    class GrenadeCore;
+    class MissileCore;
+    class RocketCore;
+    class ShellCore;
+    class PipeBombCore;
+    class MineCore;
+
+    class GrenadeBase: GrenadeCore {
+        SoundSetExplosion[] = {"DS_Ex_Grenade_SoundSet","DS_Grenade_ExploTail_SoundSet","DS_exploSmall_Tail_placeholder_SoundSet"};
+    };
+    class MissileBase: MissileCore {
+        SoundSetExplosion[] = {"DS_Ex_rocket_small_SoundSet","DS_exploSmall_Tail_placeholder_SoundSet"};
+    };
+    class RocketBase: RocketCore {
+        SoundSetExplosion[] = {"DS_Ex_rocket_small_SoundSet","DS_exploSmall_Tail_placeholder_SoundSet"};
+    };
+    class ShellBase: ShellCore {
+        SoundSetExplosion[] = {"DS_Ex_rocket_big_SoundSet","DS_exploBig_Tail_placeholder_SoundSet"};
+    };
+    class PipeBombBase: PipeBombCore {
+        SoundSetExplosion[] = {"DS_Ex_heavy_impact_1_SoundSet","DS_exploBig_Tail_placeholder_SoundSet"};
+    };
+    class MineBase: MineCore {
+        SoundSetExplosion[] = {"DS_Ex_heavy_impact_1_SoundSet","DS_exploBig_Tail_placeholder_SoundSet"};
+    };
 
     class FuelExplosion: Default {
         soundHit[] = {"LAxemann\DynaSound\addons\DS_m_explosions\sounds\vehicle_explos\tank_explo_1",8.2622776,1,2000};
