@@ -59,7 +59,7 @@ class CUP_Sh_PG9_AT: BulletBase {
 class CUP_Sh_PG15V: ShellBase {
     SoundSetExplosion[] = {"DS_Ex_rocket_small_SoundSet","DS_exploSmall_Tail_placeholder_SoundSet"};
 };
-class CUP_M_9M113_AT5_Spandrel_AT: MissileBase {
+class CUP_M_9M113_AT5_Spandrel_AT: M_Titan_AT {
     SoundSetExplosion[] = {"DS_Ex_rocket_small_SoundSet","DS_exploSmall_Tail_placeholder_SoundSet"};
 };
 class CUP_M_Shturm_9K114_AT6_Spiral_AT: MissileBase {
@@ -95,7 +95,7 @@ class CUP_M_Stinger_AA: MissileBase {
 class CUP_M_RBS70_AA: MissileBase {
     SoundSetExplosion[] = {"DS_Ex_rocket_small_SoundSet","DS_exploSmall_Tail_placeholder_SoundSet"};
 };
-class CUP_AGM65_AT: MissileBase {
+class CUP_AGM65pod_AT: MissileBase {
     SoundSetExplosion[] = {"DS_Ex_rocket_small_SoundSet","DS_exploSmall_Tail_placeholder_SoundSet"};
 };
 class CUP_AGM84_AT: MissileBase {
