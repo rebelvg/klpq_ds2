@@ -51,6 +51,10 @@ class CfgAmmo {
         delete SoundSetExplosion;
     };
 
+    class ammo_Penetrator_Base: ShellBase {
+        SoundSetExplosion[] = {};
+    };
+
     class HelicopterExploSmall: ShellBase {
         delete SoundSetExplosion;
     };
