@@ -12,6 +12,9 @@ class Rocket_04_HE_F: MissileBase {
 class Missile_AA_04_F: MissileBase {
     SoundSetExplosion[] = {"DS_Ex_rocket_small_SoundSet","DS_exploSmall_Tail_placeholder_SoundSet"};
 };
+class ammo_Missile_LongRangeAABase: MissileBase {
+    SoundSetExplosion[] = {"DS_Ex_rocket_small_SoundSet","DS_exploSmall_Tail_placeholder_SoundSet"};
+};
 class DemoCharge_Remote_Ammo: PipeBombBase {
     SoundSetExplosion[] = {"DS_Ex_heavy_impact_1_SoundSet","DS_exploBig_Tail_placeholder_SoundSet"};
 };
