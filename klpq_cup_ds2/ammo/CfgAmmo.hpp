@@ -98,7 +98,7 @@ class CUP_M_RBS70_AA: MissileBase {
 class CUP_AGM65pod_AT: MissileBase {
     SoundSetExplosion[] = {"DS_Ex_rocket_small_SoundSet","DS_exploSmall_Tail_placeholder_SoundSet"};
 };
-class CUP_AGM84_AT: MissileBase {
+class CUP_M_RIM7_Frigate: MissileBase {
     SoundSetExplosion[] = {"DS_Ex_rocket_small_SoundSet","DS_exploSmall_Tail_placeholder_SoundSet"};
 };
 class CUP_M_Javelin_AT: MissileBase {
